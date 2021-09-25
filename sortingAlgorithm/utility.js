@@ -26,7 +26,7 @@ export function selectionSort(arr) {
 export function bubbleSort(arr) {
     for (let i = 0; i < arr.length; i++) {
         for (let j = 0; j < (arr.length - i - 1); j++) {
-            //
+            //check arr[0] to next index and swap 
             if (arr[j] > arr[j + 1]) {
                 let temp = arr[j];
                 arr[j] = arr[j + 1];
